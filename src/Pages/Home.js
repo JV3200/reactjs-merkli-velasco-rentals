@@ -1,9 +1,11 @@
 import React from "react";
-
+import logo from "../assets/images/MVR-Logo.png";
 function Home() {
   return (
     <div className="home">
-      <h1>Merkli Velasco Rentals LLC</h1>
+      <a href="/">
+        <img src={logo} width="150" height="150" alt="Logo"></img>
+      </a>
     </div>
   );
 }
