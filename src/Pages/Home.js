@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="home">
       <a href="/">
-        <img src={logo} width="150" height="150" alt="Logo"></img>
+        <img src={logo} width="300" height="300" alt="Logo"></img>
       </a>
     </div>
   );

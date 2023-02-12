@@ -8,8 +8,9 @@
 }
 
 .home,
-.reports,
-.products {
+.loginRegister,
+.officeStudios,
+.storefronts {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -21,8 +22,8 @@
 
 /* Navbar CSS */
 .navbar {
-  background-color: #ffffff;
-  height: 80px;
+  background-color: rgb(134, 58, 58);
+  height: 145px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -33,6 +34,10 @@
   font-size: 2rem;
   background: none;
   color: #000;
+}
+
+.home-button {
+  margin-left: 75rem;
 }
 
 .nav-menu {
