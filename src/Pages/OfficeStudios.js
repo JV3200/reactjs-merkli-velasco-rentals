@@ -2,7 +2,7 @@ import React from "react";
 
 function OfficeStudios() {
   return (
-    <div className="OfficeStudios">
+    <div className="officeStudios">
       <h1>OfficeStudios</h1>
     </div>
   );
