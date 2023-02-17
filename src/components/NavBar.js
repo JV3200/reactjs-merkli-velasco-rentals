@@ -20,13 +20,17 @@ function Navbar() {
         {/* Navbar container */}
         <div className="navbar">
           {/* Link to show the sidebar */}
-          <Link to="#" className="menu-bars">
-            {/* FaBars icon with onClick function to toggle the sidebar */}
-            <FaIcons.FaBars onClick={showSidebar} />
-          </Link>
-          <a href="/" className="home-button">
-            <img src={logo} width="150" height="150" alt="Logo"></img>
-          </a>
+          <div>
+            <Link to="#" className="menu-bars">
+              {/* FaBars icon with onClick function to toggle the sidebar */}
+              <FaIcons.FaBars onClick={showSidebar} />
+            </Link>
+          </div>
+          <div className="home-button-img">
+            <a href="/">
+              <img src={logo} width="150" height="150" alt="Logo"></img>
+            </a>
+          </div>
         </div>
         {/* Sidebar navigation menu */}
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>

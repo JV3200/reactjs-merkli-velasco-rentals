@@ -25,19 +25,21 @@
   background-color: rgb(134, 58, 58);
   height: 145px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
+  padding: 10px;
 }
 
 .menu-bars {
-  margin-left: 2rem;
+  margin-right: auto;
+  margin-left: 3rem;
   font-size: 2rem;
   background: none;
   color: #000;
 }
 
-.home-button {
-  margin-left: 75rem;
+.home-button-img {
+  margin: 0 auto;
 }
 
 .nav-menu {
@@ -98,4 +100,29 @@
 
 span {
   margin-left: 16px;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 3/9;
+  object-fit: contain;
+}
+
+.carousel-item {
+  flex: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item.active {
+  transform: translateX(0%);
+}
+
+.carousel-item:not(.active) {
+  transform: translateX(-100%);
 }
