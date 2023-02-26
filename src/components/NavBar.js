@@ -6,6 +6,7 @@ import { SidebarData } from "./SidebarData";
 import "../App.css";
 import { IconContext } from "react-icons";
 import logo from "../assets/images/MVR-Logo.png";
+
 function Navbar() {
   // State to track whether the sidebar is open or closed
   const [sidebar, setSidebar] = useState(false);
@@ -28,7 +29,7 @@ function Navbar() {
           </div>
           <div className="home-button-img">
             <a href="/">
-              <img src={logo} width="150" height="150" alt="Logo"></img>
+              <img src={logo} width="175" height="175" alt="Logo"></img>
             </a>
           </div>
         </div>
