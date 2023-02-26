@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 * {
   box-sizing: border-box;
@@ -6,40 +7,32 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
-
-.home,
-.loginRegister,
-.officeStudios,
-.storefronts {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-  background-color: #000;
-  color: #fff;
-}
-
 /* Navbar CSS */
 .navbar {
   background-color: rgb(134, 58, 58);
-  height: 170px;
+  height: 87px;
   display: flex;
   justify-content: space-between;
+  align-content: space-around;
   align-items: center;
-  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: -25px;
 }
 
 .menu-bars {
   margin-right: auto;
-  margin-left: 1.7rem;
+  margin-left: 2rem;
   font-size: 2rem;
   background: none;
   color: rgb(0, 0, 0);
 }
 
 .home-button-img {
-  margin: 0 auto;
+  position: absolute;
+  top: 3%;
+  left: 43%;
+  z-index: 998;
 }
 
 .nav-menu {
@@ -73,13 +66,13 @@
 .nav-text a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   width: 95%;
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 16px;
-  border-radius: 4px;
+  padding: 12px 16px;
+  border-radius: 25px;
 }
 
 .nav-text a:hover {
@@ -104,27 +97,48 @@ span {
   margin-left: 16px;
 }
 
-/* .carousel {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-  width: 100%;
-  aspect-ratio: 3/9;
+.home-carousel {
+  color: #045724;
+  display: inline;
+}
+
+.d-block {
+  height: 675px;
+  width: 675px;
+  aspect-ratio: 2/2;
   object-fit: cover;
+  border-radius: 50%;
+  background-color: #045724;
+  border: 10px solid #045724;
+  margin-top: 3%;
+  margin-left: 9%;
+  margin-bottom: 2%;
+  position: inherit;
 }
 
-.carousel-item {
-  flex: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  transition: transform 0.5s ease-in-out;
+#root {
+  background-color: #045724;
 }
 
-.carousel-item.active {
-  transform: translateX(10px);
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 27%;
+  left: 58%;
+  padding-bottom: 8.25rem;
+  color: #cccccc;
+  text-align: left;
 }
 
-.carousel-item:not(.active) {
-  transform: translateX(-100%);
-} */
+/* Responsive styling */
+@media only screen and (max-width: 767px) {
+  .home,
+  .loginRegister,
+  .officeStudios,
+  .storefronts {
+    height: auto;
+    font-size: 2rem;
+    right: 10%;
+    bottom: 25%;
+  }
+}
