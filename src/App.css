@@ -7,32 +7,34 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+
 /* Navbar CSS */
 .navbar {
   background-color: rgb(134, 58, 58);
   height: 87px;
   display: flex;
   justify-content: space-between;
-  align-content: space-around;
   align-items: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-bottom: -25px;
+  padding: 0 2rem;
 }
 
 .menu-bars {
-  margin-right: auto;
-  margin-left: 2rem;
   font-size: 2rem;
   background: none;
   color: rgb(0, 0, 0);
 }
 
+.menu-bars:hover {
+  color: #ff9666;
+}
+
 .home-button-img {
   position: absolute;
   top: 3%;
-  left: 43%;
+  left: 44%;
   z-index: 998;
+  width: 20%;
+  height: 20;
 }
 
 .nav-menu {
@@ -76,7 +78,6 @@
 }
 
 .nav-text a:hover {
-  /* background-color: #000000; */
   color: #ff9666;
 }
 
@@ -103,17 +104,14 @@ span {
 }
 
 .d-block {
-  height: 675px;
-  width: 675px;
+  height: 50%;
+  width: 50%;
   aspect-ratio: 2/2;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 35%;
   background-color: #045724;
   border: 10px solid #045724;
-  margin-top: 3%;
-  margin-left: 9%;
-  margin-bottom: 2%;
-  position: inherit;
+  margin: 3% auto 2%;
 }
 
 #root {
@@ -122,23 +120,24 @@ span {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 27%;
-  left: 58%;
-  padding-bottom: 8.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem;
   color: #cccccc;
-  text-align: left;
+  text-align: center;
+  background: rgb(4, 87, 36, 0.9);
+  width: 75%;
 }
 
 /* Responsive styling */
 @media only screen and (max-width: 767px) {
-  .home,
-  .loginRegister,
-  .officeStudios,
-  .storefronts {
-    height: auto;
-    font-size: 2rem;
-    right: 10%;
-    bottom: 25%;
+  .home-carousel .d-block {
+    display: none;
+  }
+
+  .carousel-caption {
+    position: static;
+    padding: 2rem;
+    text-align: left;
   }
 }

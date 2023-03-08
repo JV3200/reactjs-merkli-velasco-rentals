@@ -16,7 +16,6 @@ function Slider({ slides }) {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      (
       <Carousel.Item>
         <img className="d-block" src={image3} alt="First slide" />
         <Carousel.Caption className="c-caption">
@@ -31,7 +30,7 @@ function Slider({ slides }) {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      )
+
       <Carousel.Item>
         <img className="d-block" src={image2} alt="Second slide" />
 
