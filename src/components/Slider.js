@@ -19,7 +19,9 @@ function Slider({ slides }) {
       <Carousel.Item>
         <img className="d-block" src={image3} alt="First slide" />
         <Carousel.Caption className="c-caption">
-          <h3>Storefronts</h3>
+          <a href="storefronts">
+            <h3>Storefronts</h3>
+          </a>
           <p>
             Merkli Velasco Rentals commercial storefront spaces in downtown
             Flagstaff are a prime location for any business. Located in the
@@ -35,7 +37,9 @@ function Slider({ slides }) {
         <img className="d-block" src={image2} alt="Second slide" />
 
         <Carousel.Caption className="c-caption">
-          <h3>Office/Studios</h3>
+          <a href="officeStudios">
+            <h3>Office/Studios</h3>
+          </a>
           <p>
             Office and studio spaces for rent in downtown Flagstaff, Arizona
             offer a unique opportunity for artists and other creative
@@ -50,7 +54,9 @@ function Slider({ slides }) {
         <img className="d-block" src={image5} alt="Third slide" />
 
         <Carousel.Caption className="c-caption">
-          <h3>Airbnb Stays</h3>
+          <a href="airbnbStays">
+            <h3>Airbnb Stays</h3>
+          </a>
           <p>
             Airbnb stays in studio-style and 1 bedroom apartments offer
             travelers a comfortable and convenient home away from home. These
