@@ -54,7 +54,7 @@ function Slider({ slides }) {
         <img className="d-block" src={image5} alt="Third slide" />
 
         <Carousel.Caption className="c-caption">
-          <a href="airbnbStays">
+          <a href="https://www.airbnb.com/users/29116663/listings">
             <h3>Airbnb Stays</h3>
           </a>
           <p>
