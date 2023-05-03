@@ -8,6 +8,10 @@
   font-family: "Lato", sans-serif;
 }
 
+body {
+  background-color: #045724;
+}
+
 /* Navbar CSS */
 .navbar {
   background-color: rgb(134, 58, 58);
@@ -16,6 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
 }
 
 .menu-bars {
@@ -30,11 +35,17 @@
 
 .home-button-img {
   position: absolute;
+  background-image: url(../src/assets/images/MVR-Logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   top: 3%;
   left: 44%;
   z-index: 998;
-  width: 20%;
-  height: 20;
+  width: 12%;
+  height: 198%;
+  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
+  border: 10px double black;
+  border-radius: 100%;
 }
 
 .nav-menu {
@@ -54,6 +65,10 @@
   left: 0;
   transition: 450ms;
   z-index: 999;
+}
+
+.nav-menu-items {
+  width: 100%;
 }
 
 .nav-text {
@@ -81,8 +96,8 @@
   color: #ff9666;
 }
 
-.nav-menu-items {
-  width: 100%;
+.login-register.a :hover {
+  color: goldenrod;
 }
 
 .navbar-toggle {
@@ -98,9 +113,20 @@ span {
   margin-left: 16px;
 }
 
-.home-carousel {
-  color: #045724;
-  display: inline;
+.d-block {
+  margin: 0.2em 0 0.8em 1.4em;
+  position: relative;
+  clear: right;
+  float: right;
+}
+
+a {
+  color: #ff9666;
+  text-decoration: none;
+}
+
+a :hover {
+  color: goldenrod;
 }
 
 .d-block {
@@ -108,10 +134,11 @@ span {
   width: 50%;
   aspect-ratio: 2/2;
   object-fit: cover;
-  border-radius: 35%;
-  background-color: #045724;
-  border: 10px solid #045724;
+  border-radius: 100% 0 100% 100%;
   margin: 3% auto 2%;
+  border: black double 10px;
+  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
+  left: -9%;
 }
 
 #root {
@@ -119,33 +146,60 @@ span {
 }
 
 .carousel-caption {
+  font-size: larger;
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 1rem;
-  color: #cccccc;
-  text-align: center;
-  background: rgb(4, 87, 36, 0.9);
-  width: 75%;
+  transform: translateX(-50);
+  width: 30%;
+  top: 30%;
+  left: 10%;
+  text-shadow: rgb(0 0 0) 7px 7px 7px;
 }
 
-.carousel-caption a {
-  color: #ff9666;
+.form {
+  width: 40%;
+  display: block;
+  margin-top: 8%;
+  margin-left: 30%;
+  padding: 102px;
+  border: double 10px black;
+  border-radius: 50% 0 50% 50%;
+  background-image: url(../src/assets/images/Brick-bg.jpg);
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
 }
 
-.carousel-caption a :hover {
-  color: #cccccc;
+.register-form {
+  margin-top: 5%;
+  margin-left: -5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 115%;
 }
 
-/* Responsive styling */
-@media only screen and (max-width: 767px) {
-  .home-carousel .d-block {
-    display: none;
-  }
+.form-label {
+  color: snow;
+}
 
-  .carousel-caption {
-    position: static;
-    padding: 2rem;
-    text-align: center;
-  }
+.form-check {
+  color: snow;
+  margin-left: 29%;
+}
+
+.btn {
+  margin: 7% 0px 12% 39%;
+}
+
+a.register-link {
+  margin-left: 9%;
+  font-size: large;
+}
+
+a.register-link:hover {
+  color: goldenrod;
+}
+
+.mb-3 {
+  margin: auto;
 }

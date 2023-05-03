@@ -5,12 +5,14 @@ import OfficeStudios from "./pages/OfficeStudios";
 import AirbnbStays from "./pages/AirbnbStays";
 import LoginRegister from "./pages/LoginRegister";
 import { createRoot } from "react-dom/client";
+import Register from "./pages/Register";
 import {
   createBrowserRouter,
   RouterProvider,
   // Route,
   // Link,
   Outlet,
+  // RedirectFunction,
 } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import "./App.css";
@@ -45,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "loginRegister",
         element: <LoginRegister />,
+      },
+      {
+        path: "register",
+        element: <Register />,
       },
     ],
   },

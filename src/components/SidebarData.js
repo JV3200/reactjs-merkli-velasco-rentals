@@ -25,8 +25,8 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Airbnb Stays",
-    path: "/airbnbStays",
+    title: "Airbnb Stay",
+    path: "https://www.airbnb.com/users/29116663/listings",
     icons: <FaIcons.FaAirbnb />,
     cName: "nav-text",
   },

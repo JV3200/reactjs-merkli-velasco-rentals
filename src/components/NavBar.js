@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "../App.css";
 import { IconContext } from "react-icons";
-import logo from "../assets/images/MVR-Logo.png";
+// import logo from "../assets/images/MVR-Logo.png";
 
 function Navbar() {
   // State to track whether the sidebar is open or closed
@@ -27,10 +27,13 @@ function Navbar() {
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
           </div>
-          <div className="home-button-img">
-            <a href="/">
-              <img src={logo} width="175" height="175" alt="Logo"></img>
+          <div>
+            <a href="/" className="home-button-img">
+              {/* <img src={logo} width="175" height="175" alt="Logo"></img> */}
             </a>
+          </div>
+          <div className="login-register a">
+            <a href="/loginRegister">Login/Register</a>
           </div>
         </div>
         {/* Sidebar navigation menu */}
@@ -53,7 +56,6 @@ function Navbar() {
                     {/* Item title */}
                     <span>{item.title}</span>
                   </Link>
-                  {/* <Link to="https://www.airbnb.com/users/29116663/listings">Air</Link> */}
                 </li>
               );
             })}
