@@ -2,18 +2,10 @@ import React from "react";
 import Home from "./pages/Home";
 import Storefronts from "./pages/Storefronts";
 import OfficeStudios from "./pages/OfficeStudios";
-import AirbnbStays from "./pages/AirbnbStays";
 import LoginRegister from "./pages/LoginRegister";
 import { createRoot } from "react-dom/client";
 import Register from "./pages/Register";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  // Route,
-  // Link,
-  Outlet,
-  // RedirectFunction,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import "./App.css";
 
@@ -42,7 +34,6 @@ const router = createBrowserRouter([
       },
       {
         path: "airbnbStays",
-        element: <AirbnbStays />,
       },
       {
         path: "loginRegister",
