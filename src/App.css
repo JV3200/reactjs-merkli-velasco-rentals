@@ -47,7 +47,11 @@ body {
   max-width: 286px; /* add a max-width to limit the size on large screens */
   box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
   border: 10px double black;
-  border-radius: 50%; /* change the border-radius to half of the element's width */
+  border-radius: 50%; /* Initial border radius is set to 50% */
+
+  /* Additional styles for circular shape */
+  overflow: hidden;
+  aspect-ratio: 1/1;
 }
 
 .nav-menu {
