@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
-// import image1 from "../assets/images/historic-downtown-flagstaff.jpg";
 import image2 from "../assets/images/0422_Shonto_OPEN.jpeg";
 import image3 from "../assets/images/storefront.jpeg";
-// import image4 from "../assets/images/kalen-kemp-bvsVcxjJJ6M-unsplash.jpg";
 import image5 from "../assets/images/livingroom.jpeg";
 import "../App.css";
 
-function Slider({ slides }) {
+const Slider = ({ slides }) => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -68,6 +66,6 @@ function Slider({ slides }) {
       </Carousel.Item>
     </Carousel>
   );
-}
+};
 
 export default Slider;

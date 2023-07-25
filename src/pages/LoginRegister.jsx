@@ -1,6 +1,7 @@
+import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-// import formBackground from "../assets/images/sunset";
+import "../App.css";
 
 function LoginRegister() {
   return (
@@ -19,12 +20,12 @@ function LoginRegister() {
           <Form.Check type="checkbox" label="Remember me" />
         </Form.Group>
       </Form>
-      <Button variant="btn btn-success" type="submit">
+      <Button variant="success" type="submit">
         Login
       </Button>
       <br />
       <a href="register" className="register-link">
-        Don't have and account? Register here.
+        Don't have an account? Register here.
       </a>
     </div>
   );

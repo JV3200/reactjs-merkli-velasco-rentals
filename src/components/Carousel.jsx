@@ -1,6 +1,6 @@
 import React from "react";
 
-function Carousel() {
+const Carousel = () => {
   return (
     <div
       id="carouselExampleAutoplaying"
@@ -38,6 +38,6 @@ function Carousel() {
       </button>
     </div>
   );
-}
+};
 
 export default Carousel;

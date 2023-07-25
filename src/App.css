@@ -129,7 +129,7 @@ a {
   text-decoration: none;
 }
 
-a :hover {
+a:hover {
   color: goldenrod;
 }
 
@@ -160,15 +160,13 @@ a :hover {
 }
 
 .form {
-  width: 40%;
-  display: block;
-  margin-top: 8%;
-  margin-left: 30%;
-  padding: 102px;
+  width: 90%;
+  max-width: 600px;
+  margin: 8% auto;
+  padding: 8%;
   border: double 10px black;
   border-radius: 50% 0 50% 50%;
   background-image: url(../src/assets/images/Brick-bg.jpg);
-  height: 550px;
   background-position: center;
   background-size: cover;
   box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
@@ -176,10 +174,9 @@ a :hover {
 
 .register-form {
   margin-top: 5%;
-  margin-left: -5%;
   display: flex;
   flex-wrap: wrap;
-  width: 115%;
+  width: 100%;
 }
 
 .form-label {
@@ -206,4 +203,48 @@ a.register-link:hover {
 
 .mb-3 {
   margin: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-button-img {
+    width: 30%;
+    left: 35%;
+    height: auto;
+    top: 1%;
+  }
+
+  .form {
+    width: 90%;
+    max-width: 400px;
+    margin: 8% auto;
+    padding: 6%;
+    border: double 8px black;
+  }
+
+  .register-form {
+    margin-top: 5%;
+  }
+
+  .btn {
+    margin: 7% 0px 12% 25%;
+  }
+
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .nav-menu {
+    width: 200px;
+  }
+
+  .nav-text a {
+    font-size: 18px;
+  }
+
+  .carousel-caption {
+    width: 70%;
+    top: 40%;
+    left: 15%;
+  }
 }
