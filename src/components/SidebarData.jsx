@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as HiIcons from "react-icons/hi2";
@@ -25,7 +24,7 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Airbnb Stay",
+    title: "Airbnb Stays",
     path: "https://www.airbnb.com/users/29116663/listings",
     icons: <FaIcons.FaAirbnb />,
     cName: "nav-text",

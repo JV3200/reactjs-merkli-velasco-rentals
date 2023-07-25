@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Merkli Velasco Rentals LLC - Commercial Real Estate Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official GitHub repository for Merkli Velasco Rentals LLC's Commercial Real Estate Informational Web App. This web app is designed to help future tenants find information on available commercial spaces and provide access to available Airbnb accommodations. Additionally, it offers a convenient payment portal for current tenants to pay their rent fees.
 
-## Available Scripts
+![Merkli Velasco Rentals LLC Logo](https://yourimageurl.com/merkli-velasco-rentals-logo.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Find Available Commercial Spaces:** Browse through our selection of commercial spaces to find the one that suits your business needs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Explore Airbnb Accommodations:** For those seeking temporary accommodations, we provide a link to available Airbnb listings in the area.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Secure Payment Portal:** Current tenants can easily pay their rent fees through our secure online payment portal.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Payment Integration: Stripe API
+- Deployment: Heroku
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the web app on your local server, follow these instructions:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Make sure you have the following software installed on your system:
 
-### `npm run eject`
+- Node.js: [Download Node.js](https://nodejs.org)
+- MongoDB: [Download MongoDB](https://www.mongodb.com/try/download/community)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository to your local machine using:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/MerkliVelascoRentals/Commercial-Real-Estate-WebApp.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
 
-## Learn More
+```bash
+cd Commercial-Real-Estate-WebApp
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install the required dependencies:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+4. Set up environment variables:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   - Create a `.env` file in the root of the project.
+   - Add the following environment variables with your configuration:
 
-### Analyzing the Bundle Size
+     ```env
+     MONGODB_URI=your_mongodb_connection_string
+     STRIPE_API_KEY=your_stripe_api_key
+     ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Running the App
 
-### Making a Progressive Web App
+Once the installation and configuration are complete, you can start the app locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+The web app will be accessible at [http://localhost:3000](http://localhost:3000) in your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Deployment
 
-### Deployment
+The web app is deployed on Heroku and can be accessed at [https://www.merkli-velasco-rentals.com](https://www.merkli-velasco-rentals.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributions
 
-### `npm run build` fails to minify
+We welcome contributions to improve our web app! If you find a bug or have suggestions for new features, please open an issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+
+For any inquiries or support, please contact our team at [contact@merkli-velasco-rentals.com](mailto:contact@merkli-velasco-rentals.com).
+
+---
+
+Thank you for choosing Merkli Velasco Rentals LLC. We hope our web app helps you find the perfect commercial space for your business needs!

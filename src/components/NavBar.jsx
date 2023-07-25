@@ -5,25 +5,18 @@ import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "../App.css";
 import { IconContext } from "react-icons";
-// import logo from "../assets/images/MVR-Logo.png";
 
-function Navbar() {
-  // State to track whether the sidebar is open or closed
+const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
-  // Function to toggle the sidebar open/closed state
   const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <>
-      {/* Provide an icon context for the navigation bar */}
       <IconContext.Provider value={{ color: "undefined" }}>
-        {/* Navbar container */}
         <div className="navbar">
-          {/* Link to show the sidebar */}
           <div>
             <Link to="#" className="menu-bars">
-              {/* FaBars icon with onClick function to toggle the sidebar */}
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
           </div>
@@ -36,24 +29,18 @@ function Navbar() {
             <a href="/loginRegister">Login/Register</a>
           </div>
         </div>
-        {/* Sidebar navigation menu */}
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-          {/* List of navigation menu items */}
           <ul className="nav-menu-items" onClick={showSidebar}>
-            {/* Link to close the sidebar */}
             <li className="navbar-toggle">
               <Link to="#" className="menu-bars">
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
-            {/* Map through the navigation menu data to create menu items */}
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
                   <Link to={item.path}>
-                    {/* Item icon */}
                     {item.icons}
-                    {/* Item title */}
                     <span>{item.title}</span>
                   </Link>
                 </li>
@@ -64,6 +51,6 @@ function Navbar() {
       </IconContext.Provider>
     </>
   );
-}
+};
 
 export default Navbar;
