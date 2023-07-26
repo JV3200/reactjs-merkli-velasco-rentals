@@ -207,6 +207,15 @@ a.register-link:hover {
   margin: auto;
 }
 
+.storefronts {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: auto;
+  justify-content: space-evenly;
+  row-gap: 30px;
+  padding-top: 40px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .home-button-img {
