@@ -11,7 +11,7 @@ function OfficeStudios() {
         <Cards
           title="Joe Soren"
           imageUrl="../assets/images/historic-downtown-flagstaff.jpg"
-          description="Artist with mural work around flagstaff also internationally "
+          description="Discover the enchanting world of Joe Sorren's Art Studio in downtown Flagstaff, AZ. Step into a sanctuary of dreamlike paintings, evoking emotions and sparking imagination. Surreal landscapes and expressive figures invite you on an introspective journey. Embrace the captivating allure of Sorren's art—a tribute to the boundless magic of creativity."
         />
         <Cards />
         <Cards />
@@ -20,7 +20,7 @@ function OfficeStudios() {
         <Cards
           title="Shonto Begay Art Studio"
           imageUrl="../assets/images/Red-rocks.jpg"
-          description="Visit Shane Knight's photography studio in downtown Flagstaff to get"
+          description="Shonto Begay's Art Studio in downtown Flagstaff, Arizona, welcomes you to a captivating space where vibrant paintings, intricate illustrations, and rich Navajo storytelling come to life. Explore the artist's mastery of color and form, gaining insight into the essence of Navajo culture through his art and acclaimed books. This warm and inviting studio offers a profound encounter with Shonto Begay's creative brilliance and the timeless beauty of Native American heritage."
         />
         <Cards />
       </div>
