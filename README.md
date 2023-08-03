@@ -2,7 +2,7 @@
 
 Welcome to the official GitHub repository for Merkli Velasco Rentals LLC's Commercial Real Estate Informational Web App. This web app is designed to help future tenants find information on available commercial spaces and provide access to available Airbnb accommodations. Additionally, it offers a convenient payment portal for current tenants to pay their rent fees.
 
-![Merkli Velasco Rentals LLC Logo](https://yourimageurl.com/merkli-velasco-rentals-logo.png)
+![Merkli Velasco Rentals LLC Logo](./src/assets/images/MVR-Logo.png)
 
 ## Features
 
