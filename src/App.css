@@ -38,18 +38,13 @@ body {
   background-image: url(../src/assets/images/MVR-Logo.png);
   background-size: cover;
   background-repeat: no-repeat;
-  top: 3%;
+  top: -6%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 998;
   width: 15%; /* change the width to a percentage */
   padding-top: 14%; /* add padding-top to create a square shape */
   max-width: 286px; /* add a max-width to limit the size on large screens */
-  box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
-  border: 10px double black;
-  border-radius: 50%; /* Initial border radius is set to 50% */
-
-  /* Additional styles for circular shape */
   overflow: hidden;
   aspect-ratio: 1/1;
 }
