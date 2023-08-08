@@ -21,6 +21,7 @@ function Storefronts() {
           title="Shane Knight Photography"
           imageUrl="../assets/images/Red-rocks.jpg"
           description="Specializing in fine made photography of western horses and the beautiful landscapes that surround them. Offering Beautiful Printed and Framed Fine Art Photography Since 1998"
+          websiteUrl="http://shaneknight.com/"
         />
         <Cards />
       </div>
