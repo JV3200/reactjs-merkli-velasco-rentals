@@ -10,7 +10,7 @@ function OfficeStudios() {
       <div className="storefronts">
         <Cards
           title="Joe Soren"
-          imageUrl="../assets/images/historic-downtown-flagstaff.jpg"
+          src="../assets/images/historic-downtown-flagstaff.jpg"
           description="Discover the enchanting world of Joe Sorren's Art Studio in downtown Flagstaff, AZ. Step into a sanctuary of dreamlike paintings, evoking emotions and sparking imagination. Surreal landscapes and expressive figures invite you on an introspective journey. Embrace the captivating allure of Sorren's art—a tribute to the boundless magic of creativity."
         />
         <Cards />
