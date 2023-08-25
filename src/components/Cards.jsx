@@ -8,7 +8,7 @@ function Cards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.description}</Card.Text>
-        <Button variant="primary" href={props.websiteUrl}>
+        <Button class="btn" href={props.websiteUrl}>
           Visit Their Website
         </Button>
       </Card.Body>

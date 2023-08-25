@@ -187,6 +187,11 @@ a:hover {
 
 .btn {
   margin: 7% 0px 12% 39%;
+  background-color: #ff9666;
+}
+
+.btn:hover {
+  background-color: goldenrod;
 }
 
 a.register-link {
