@@ -12,7 +12,7 @@ import leroux from "../assets/images/22-leroux.jpeg";
 function Storefronts() {
   return (
     <>
-      <h1>Storefronts</h1>
+      <h1 class="text_shadows">Storefronts</h1>
 
       <div className="storefronts">
         <Cards

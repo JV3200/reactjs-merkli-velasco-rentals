@@ -7,11 +7,11 @@ import shonto from "../assets/images/shonto-painting.jpeg";
 function OfficeStudios() {
   return (
     <>
-      <h1>Storefronts</h1>
+      <h1 className="text_shadows">Offices & Studios</h1>
 
-      <div className="storefronts">
+      <div className="officeStudios">
         <Cards
-          title="Joe Soren"
+          title="Joe Soren Art Studio"
           img={joe}
           description="Discover the enchanting world of Joe Sorren's Art Studio in downtown Flagstaff, AZ. Step into a sanctuary of dreamlike paintings, evoking emotions and sparking imagination. Surreal landscapes and expressive figures invite you on an introspective journey. Embrace the captivating allure of Sorren's art—a tribute to the boundless magic of creativity."
         />
