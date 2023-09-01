@@ -21,7 +21,7 @@ function LoginRegister() {
         </Form.Group>
       </Form>
       <Button variant="success" type="submit">
-        Submit
+        Login
       </Button>
       <br />
       <a href="register" className="register-link">
